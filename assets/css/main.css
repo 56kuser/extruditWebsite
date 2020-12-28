@@ -2672,7 +2672,8 @@ input, select, textarea {
 		}
 
 /* Banner */
-@media screen and (max-width: 767px) {
+
+
     	#banner {
         background-image: url("../../images/banner.jpg"); 
 
@@ -2684,10 +2685,10 @@ input, select, textarea {
 		position: relative;
 	}
 
-}
+
 @media screen and (min-width: 768px) {
     	#banner {
-        background-image: url("../../images/banner2.jpg"); 
+        background-image: url("../../images/banner.jpg"); 
 
 		
 		background-position: center center;
@@ -2699,7 +2700,7 @@ input, select, textarea {
 }
 @media screen and (min-width: 992px) {
     	#banner {
-        background-image: url("../../images/banner3.jpg"); 
+        background-image: url("../../images/banner.jpg"); 
 
 		
 		background-position: center center;
@@ -2712,7 +2713,7 @@ input, select, textarea {
 
 @media screen and (min-width: 1200px) {
     	#banner {
-        background-image: url("../../images/banner4.jpg"); 
+        background-image: url("../../images/banner.jpg"); 
 
 		
 		background-position: center center;
