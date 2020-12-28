@@ -2673,7 +2673,7 @@ input, select, textarea {
 
 /* Banner */
 
-
+@media screen and (min-width: 768px) {
     	#banner {
         background-image: url("../../images/banner.jpg"); 
 
@@ -2684,7 +2684,7 @@ input, select, textarea {
 		text-align: center;
 		position: relative;
 	}
-
+}
 
 @media screen and (min-width: 768px) {
     	#banner {
