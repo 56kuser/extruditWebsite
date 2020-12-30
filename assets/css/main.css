@@ -2672,8 +2672,25 @@ input, select, textarea {
 		}
 
 /* Banner */
+/* Banner default to the mobile version first  */ 
+        #banner {
+        background-image: url("../../images/bannerx.jpg"); 
 
-    	#banner {
+		
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	
+
+    }
+
+
+/* Banner if we have more realestate  */ 
+@media only screen and (min-width: 800px) {
+
+        #banner {
         background-image: url("../../images/banner.jpg"); 
 
 		
@@ -2682,7 +2699,11 @@ input, select, textarea {
 		height: 28em;
 		text-align: center;
 		position: relative;
-	}
+	
+
+  }
+}
+
 
 
 
