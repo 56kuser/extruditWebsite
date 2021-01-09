@@ -2777,6 +2777,15 @@ input, select, textarea {
 				.wrapper.style3 .button:hover {
 					color: #37c0fb !important;
 				}
+/* dog */
+		.wrapper.style4 {
+			background-color: #FFFF;
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			color: #fff;
+		}
 
 /* CTA */
 
@@ -2795,6 +2804,32 @@ input, select, textarea {
 			vertical-align: middle;
 			margin-left: 1em;
 		}
+
+
+
+/* CTA2 dog */
+
+	#cta2 {
+		text-align: center;
+		padding: 1.5em 0;
+	}
+
+		#cta2 header h2 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0;
+		}
+
+		#cta2 header .button {
+			vertical-align: middle;
+			margin-left: 0.5em;
+		}
+
+
+
+
+
+
 
 /* Footer */
 
@@ -2907,6 +2942,12 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
+				padding: 2em 0;
+			}
+        
+        		/* CTA 2*/
+
+			#cta2 {
 				padding: 2em 0;
 			}
 
@@ -3031,6 +3072,21 @@ input, select, textarea {
 				#cta header .button {
 					margin: 1em 0 0 0;
 				}
+        
+        		/* CTA2 */
+
+			#cta2 {
+				padding: 0.5em 0;
+			}
+
+				#cta2 header h2 {
+					display: block;
+				}
+
+				#cta2 header .button {
+					margin: 1em 0 0 0;
+				}
+        
 
 		/* Footer */
 
@@ -3373,6 +3429,12 @@ input, select, textarea {
 
 			#cta {
 				padding: 20px;
+			}
+        
+        		/* CTA2 */
+
+			#cta2 {
+				padding: 10px;
 			}
 
 		/* Footer */
