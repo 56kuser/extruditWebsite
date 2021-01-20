@@ -2545,7 +2545,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 1.5em;
+				font-size: 2em;   /* originally 1.5 Header */
 				letter-spacing: -0.025em;
 				border: 0;
 			}
@@ -2691,7 +2691,26 @@ input, select, textarea {
 @media only screen and (min-width: 800px) {
 
         #banner {
-        background-image: url("../../images/banner.jpg"); 
+        background-image: url("../../images/thitd%20bannerA.jpg"); 
+
+		
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	
+
+  }
+}
+
+
+
+/* Banner if we have more realestate  */ 
+@media only screen and (min-width: 2000px) {
+
+        #banner {
+        background-image: url("../../images/fourth%20bannerAsamll.jpg"); 
 
 		
 		background-position: center center;
@@ -2721,7 +2740,7 @@ input, select, textarea {
 			#banner header h2 {
 				display: inline-block;
 				margin: 0;
-				font-size: 1.25em;
+				font-size: 1.25em;  /* dog originally 1.25  */ 
 				vertical-align: middle;
 			}
 
@@ -2777,13 +2796,13 @@ input, select, textarea {
 				.wrapper.style3 .button:hover {
 					color: #37c0fb !important;
 				}
-/* dog */
+/* dog   4472c4 - bljue   #2b2b2b - black*/
 		.wrapper.style4 {
-			background-color: #dc0303;
-			background-image: -moz-linear-gradient(top, rgba(100,100,50,50), rgba(0,0,0,0.15)), url("images/bg010.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg010.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg010.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg010.png");
+			background-color: #4472c4;
+			background-image: -moz-linear-gradient(top, rgba(100,100,50,50), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			color: #fff;
 		}
 
